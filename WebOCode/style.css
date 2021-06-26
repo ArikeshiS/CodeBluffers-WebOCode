@@ -101,3 +101,141 @@ button:hover span{
 button:hover {
 	border: none;
 }
+.row{
+	width: 80%;
+	min-height: 85vh;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+.col{
+	margin: 10px 0;
+	flex-basis: 50%;
+	min-width: 300px;
+	height: 100%;
+	position: relative;
+}
+.text-box{
+	max-width: 600px;
+	margin-top:100px;
+	color: #fff;
+
+}
+.text-box h1{
+	font-size: 50px;
+	font-weight: 100;
+	padding-bottom: 20px;
+	
+}
+.text-box h4{
+	font-size: 18px;
+	font-weight: 100;
+	letter-spacing: 4px;
+	line-height: 25px
+}
+
+.gallery-box {
+	width: 500px;
+	position: relative;
+	margin: auto;
+	margin-top: 50px;
+}
+.gallery-box img{
+	width: 100%;
+	border: 10px solid rgba(255,255,255,0.2);
+	box-sizing: border-box;
+}
+.gallery-box ul{
+	position: absolute;
+	right: -100px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.gallery-box ul li{
+	list-style: none;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 0 30px;
+	margin-bottom: 30px;
+	cursor: pointer;
+	position: relative;
+	color: #fff;
+}
+.gallery-box .active{
+	color: #009688; 
+}
+.gallery-box .active1{
+	color: #009688; 
+}
+.gallery-box ul li::after{
+	content: '';
+	width: 30px;
+	height: 2px;
+	background: transparent;
+	position: absolute;
+	top:8px;
+	left: -5px; 
+}
+.gallery-box .active::after{
+	background: #009688;
+}
+.gallery-box .active1::after{
+	background: #009688;
+}
+.banner1{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(banner2.jpg);
+    background-size: cover;
+    background-position: center;
+    display: table;
+    background-attachment: fixed;
+}
+.gallery-box1 {
+	width: 500px;
+	position: relative;
+	margin: auto;
+	margin-top: 50px;
+}
+.gallery-box1 img{
+	width: 100%;
+	border: 10px solid rgba(255,255,255,0.2);
+	box-sizing: border-box;
+}
+.gallery-box1 ul{
+	position: absolute;
+	right: -100px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.gallery-box1 ul li{
+	list-style: none;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 0 30px;
+	margin-bottom: 30px;
+	cursor: pointer;
+	position: relative;
+	color: #fff;
+}
+.gallery-box1 .active{
+	color: #009688; 
+}
+.gallery-box1 .active1{
+	color: #009688; 
+}
+.gallery-box1 ul li::after{
+	content: '';
+	width: 30px;
+	height: 2px;
+	background: transparent;
+	position: absolute;
+	top:8px;
+	left: -5px; 
+}
+.gallery-box1 .active::after{
+	background: #009688;
+}
+.gallery-box1 .active1::after{
+	background: #009688;
+}
