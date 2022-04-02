@@ -37,4 +37,4 @@
    - Adding Sliders
    - Adding Hover Effect
    - Adding Parallax Effect
-   - Adding Bottom to Top Button
+   - Adding Bottom to Top Button.
